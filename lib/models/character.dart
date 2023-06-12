@@ -1,4 +1,5 @@
 class Character {
+  int id;
   int bookId;
   String firstName;
   String lastName;
@@ -7,6 +8,7 @@ class Character {
   bool gender;
 
   Character({
+    required this.id,
     required this.bookId,
     required this.firstName,
     this.lastName = "--",
