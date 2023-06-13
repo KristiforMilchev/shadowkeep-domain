@@ -4,11 +4,11 @@ import 'package:flutter/widgets.dart';
 class RelationalBinding {
   int id;
   Widget content;
-  int relatedTo;
+  int? relatedTo;
 
   RelationalBinding({
     required this.id,
     required this.content,
-    this.relatedTo = -1,
+    this.relatedTo,
   });
 }
