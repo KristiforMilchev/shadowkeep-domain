@@ -10,7 +10,7 @@ class RelationalBinding {
   RelationalBinding({
     required this.id,
     required this.content,
-    this.related = const [],
     this.relatedTo,
+    this.related = const [],
   });
 }
