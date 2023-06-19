@@ -17,7 +17,7 @@ class Book {
     required this.title,
     this.characters = const [],
     this.chapters = const [],
-    this.categories = const [],
+    this.categories = const ["Fiction", "Sci-Fi", "Novel"],
     this.cover = "",
     this.author,
     this.description =
