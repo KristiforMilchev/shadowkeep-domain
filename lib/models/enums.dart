@@ -9,7 +9,9 @@ enum Day { monday, tuesday, wednesday, thursday, friday, saturday, sunday }
 enum EditorCommand {
   undo,
   redo,
+  save,
   copy,
+  cut,
   paste,
   alightLeft,
   alightRight,
@@ -21,5 +23,8 @@ enum EditorCommand {
   selectAll,
   delete,
   bold,
-  underline
+  underline,
+  h1,
+  h2,
+  h3,
 }
